@@ -74,3 +74,13 @@ class Arena:
 
     def team_battle(self):
         self.team_one.attack(self.team_two)
+
+
+bob = Hero("Bob")
+
+alpha_team = Team("Alpha")
+
+
+alpha_team.add_hero(bob)
+
+alpha_team.view_all_heroes()

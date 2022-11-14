@@ -1,7 +1,7 @@
 import random
 
 class Hero:
-    def __init__(self, name, starting_health=500):
+    def __init__(self, name, starting_health=100):
         self.name = name
         self.starting_health = starting_health
         self.current_health = starting_health
@@ -67,3 +67,5 @@ class Hero:
 
     def add_death(self):
         self.deaths += 1
+
+
